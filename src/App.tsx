@@ -1,5 +1,11 @@
+import { TextContent } from "./textContent";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <TextContent />
+    </>
+  );
 }
 
 export default App;
