@@ -1,9 +1,13 @@
 import { TextContent } from "./textContent";
+import { MobileHeroImage } from "./heroImage";
 
 function App() {
   return (
     <>
-      <TextContent />
+      <div className="container">
+        <MobileHeroImage />
+        <TextContent />
+      </div>
     </>
   );
 }
