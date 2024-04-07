@@ -1,11 +1,23 @@
 export const MobileHeroImage = () => {
   return (
-    <div className="overlay">
+    <section className="overlay">
       <img
-        src="./public/images/image-header-mobile.jpg"
+        src="./images/image-header-mobile.jpg"
         alt="Female computer scientists"
         className="hero-mobile"
       />
-    </div>
+    </section>
+  );
+};
+
+export const DesktopHeroImage = () => {
+  return (
+    <section className="overlay">
+      <img
+        src="./images/image-header-desktop.jpg"
+        alt="Female computer scientists"
+        className="hero-desktop"
+      />
+    </section>
   );
 };
