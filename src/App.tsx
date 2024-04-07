@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { TextContent } from "./textContent";
 import { MobileHeroImage } from "./heroImage";
 import { Attribution } from "./attribution";
